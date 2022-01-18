@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="GitHubScenarious">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="scenatio3"/>
+          <include name="tearDownClass"/>
+          <include name="scenatio4"/>
+        </methods>
+      </class> <!-- GitHubScenarious -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

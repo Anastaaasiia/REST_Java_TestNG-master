@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_task1_jar_1.0-SNAPSHOT">
+
+    
+    <test name="All tests for com.mycompany_task1_jar_1.0-SNAPSHOT">
+        <groups>
+                <run>   
+                    <exclude name="stop"/>   
+                </run>
+        </groups>
+        <classes>
+                <class name="GitHubScenarious"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mycompany_task1_jar_1.0-SNAPSHOT]">
+  <test name="All tests for com.mycompany_task1_jar_1.0-SNAPSHOT(failed)">
+    <groups>
+      <run>
+        <exclude name="stop"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="GitHubScenarious">
+        <methods>
+          <include name="scenatio3"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- GitHubScenarious -->
+    </classes>
+  </test> <!-- All tests for com.mycompany_task1_jar_1.0-SNAPSHOT(failed) -->
+</suite> <!-- Failed suite [com.mycompany_task1_jar_1.0-SNAPSHOT] -->

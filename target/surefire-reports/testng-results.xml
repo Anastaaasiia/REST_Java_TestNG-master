@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.mycompany_task1_jar_1.0-SNAPSHOT" duration-ms="5820" started-at="2019-08-27T20:49:49Z" finished-at="2019-08-27T20:49:55Z">
+    <groups>
+    </groups>
+    <test name="All tests for com.mycompany_task1_jar_1.0-SNAPSHOT" duration-ms="5820" started-at="2019-08-27T20:49:49Z" finished-at="2019-08-27T20:49:55Z">
+      <class name="GitHubScenarious">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:GitHubScenarious@2f7a2457]" name="setUpClass" is-config="true" duration-ms="669" started-at="2019-08-27T22:49:49Z" finished-at="2019-08-27T22:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario1_createNewRepository()[pri:0, instance:GitHubScenarious@2f7a2457]" name="scenario1_createNewRepository" duration-ms="3392" started-at="2019-08-27T22:49:50Z" description="This scenario is creating a new repository on github using API" finished-at="2019-08-27T22:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1_createNewRepository -->
+        <test-method status="PASS" signature="scenario2()[pri:0, instance:GitHubScenarious@2f7a2457]" name="scenario2" duration-ms="662" started-at="2019-08-27T22:49:53Z" description="This scenario is editing the repository name on github using API" finished-at="2019-08-27T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="scenatio3()[pri:0, instance:GitHubScenarious@2f7a2457]" name="scenatio3" duration-ms="582" started-at="2019-08-27T22:49:54Z" description="This scenario is setting topics for a repository on GitHub using API" finished-at="2019-08-27T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenatio3 -->
+        <test-method status="PASS" signature="scenatio4()[pri:0, instance:GitHubScenarious@2f7a2457]" name="scenatio4" duration-ms="491" started-at="2019-08-27T22:49:54Z" description="This scenario is deleating a repository on github using API" finished-at="2019-08-27T22:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenatio4 -->
+      </class> <!-- GitHubScenarious -->
+    </test> <!-- All tests for com.mycompany_task1_jar_1.0-SNAPSHOT -->
+  </suite> <!-- com.mycompany_task1_jar_1.0-SNAPSHOT -->
+</testng-results>

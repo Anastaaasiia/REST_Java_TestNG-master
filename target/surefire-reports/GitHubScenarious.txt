@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: GitHubScenarious
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 297.464 s <<< FAILURE! - in GitHubScenarious
+scenatio3(GitHubScenarious)  Time elapsed: 95.641 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at GitHubScenarious.scenatio3(GitHubScenarious.java:126)
+
+scenatio4(GitHubScenarious)  Time elapsed: 13.219 s  <<< FAILURE!
+java.lang.AssertionError: expected [204] but found [400]
+	at GitHubScenarious.scenatio4(GitHubScenarious.java:142)
+
